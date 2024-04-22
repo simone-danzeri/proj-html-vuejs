@@ -7,7 +7,7 @@
 
 <template>
     <div>
-        ciao pippo
+        
     </div>
 </template>
 
