@@ -1,8 +1,10 @@
 <script>
   import PageHeader from './components/PageHeader.vue';
+  import AppHero from './components/AppHero.vue';
   export default {
     components: {
-      PageHeader
+      PageHeader,
+      AppHero
     },
     data() {
       return {
@@ -22,6 +24,7 @@
 
 <template>
   <PageHeader :navBar="navLinks"></PageHeader>
+  <AppHero></AppHero>
 </template>
 
 
