@@ -3,13 +3,25 @@
   export default {
     components: {
       PageHeader
+    },
+    data() {
+      return {
+        navLinks: [
+          'Home',
+          'Pages',
+          'Courses',
+          'Features',
+          'Blog',
+          'Shop'
+        ],
+      }
     }
   }
 </script>
 
 
 <template>
-  <PageHeader></PageHeader>
+  <PageHeader :navBar="navLinks"></PageHeader>
 </template>
 
 
