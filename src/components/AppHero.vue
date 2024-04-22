@@ -42,6 +42,7 @@
     background-position: center;
     width: 100%;
     position: relative;
+    
 
     .ms-side{
         position: absolute;
