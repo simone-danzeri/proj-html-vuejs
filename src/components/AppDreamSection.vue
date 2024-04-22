@@ -65,7 +65,7 @@
             </div>
         </div>
         <!-- Sezione con ragazzo che esulta -->
-        <div class="row justify-content-between mt-5 pt-5">
+        <div class="row justify-content-between my-5 pt-5">
             <div class="col-5">
                 <div class="ms-img-container d-flex justify-content-end">
                     <img class="ms-man" src="../assets/img/about-us-03-image-01.png" alt="">
@@ -91,6 +91,26 @@
                     <span class="ms-accordion-title">Multiple Course Partecipation At The Same Time</span>
                     <span class="ms-accordion-fa"><i class="fa-solid fa-circle-plus"></i></span>
                 </div>
+            </div>
+        </div>
+
+        <!-- Sezione colorata con numeri -->
+        <div class="row justify-content-around ms-bg-lightgray my-5 py-2">
+            <div class="col-2">
+                <h3 class="ms-color-green">1.926</h3>
+                <small>FINISHED SESSION</small>
+            </div>
+            <div class="col-2">
+                <h3 class="ms-color-green">3.092+</h3>
+                <small>ENROLLED LEARNERS</small>
+            </div>
+            <div class="col-2">
+                <h3 class="ms-color-green">200</h3>
+                <small>ONLINE INSTRUCTORS</small>
+            </div>
+            <div class="col-2">
+                <h3 class="ms-color-green">100%</h3>
+                <small>SATISFACTION RATE</small>
             </div>
         </div>
     </div>
@@ -172,5 +192,17 @@
     box-shadow: 0px 14px 35px 33px rgba(0,0,0,0.05);
     -webkit-box-shadow: 0px 14px 35px 33px rgba(0,0,0,0.05);
     -moz-box-shadow: 0px 14px 35px 33px rgba(0,0,0,0.05);
+}
+
+
+.ms-bg-lightgray{
+    background-color: $light-gray;
+    small{
+        font-size: 12px;
+        font-weight: 200;
+    }
+}
+.ms-color-green{
+    color: $green;
 }
 </style>
