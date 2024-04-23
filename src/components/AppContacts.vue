@@ -93,6 +93,20 @@
                     <li><i class="fa-solid fa-circle"></i></li>
                 </ul>
             </div>
+            <!-- Get Started -->
+            <div class="ms-gs-container d-flex justify-content-between">
+                <div class="ms-gs-logo-left">
+                    <img src="../assets/img/maxcoach-shape-01.png" alt="">
+                </div>
+                <div class="ms-gs-title d-flex flex-column align-items-center justify-content-center">
+                    <h5 class="text-center">Start today for getting <span class="ms-green ms-thin">Online Certification</span></h5>
+                    <h3 class="text-center py-3">You can be your own guiding star with our help!</h3>
+                    <button class="mt-3 mb-5">Get Started Now</button>
+                </div>
+                <div class="ms-gs-logo-right">
+                    <img src="../assets/img/maxcoach-shape-02.png" alt="">
+                </div>
+            </div>
         </div>
     </section>
 </template>
@@ -212,6 +226,38 @@
                 font-weight: 600;
             }
         }
+    }
+}
+
+.ms-gs-container{
+    .ms-gs-logo-left{
+        position: relative;
+        img{
+            position: absolute;
+            top: 70px;
+            left: 150px
+        }
+        
+    }
+    .ms-gs-title{
+        button{
+            padding: 8px 80px;
+            border: none;
+            border-radius: 5px;
+            background-color: $green;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+    .ms-gs-logo-right{
+        position: relative;
+        img{
+            position: absolute;
+            top:0;
+            right: 100px;
+        }
+        
     }
 }
 </style>
