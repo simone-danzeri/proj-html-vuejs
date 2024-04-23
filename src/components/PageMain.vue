@@ -58,7 +58,7 @@
 <template>
     <AppDreamSection></AppDreamSection>
     <AppCourses></AppCourses>
-    <AppContacts></AppContacts>
+    <AppContacts :event="events"></AppContacts>
 </template>
 
 
