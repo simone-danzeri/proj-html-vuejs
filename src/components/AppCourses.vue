@@ -167,6 +167,23 @@
                     </div>
                 </div>
             </div>
+            <div class="row ms-more-mt">
+                <div class="col-5 ms-move-right">
+                    <div class="ms-images-container d-flex">
+                        <img class="ms-img" src="../assets/img/home-5-image-02.png" alt="">
+                        <div class="ms-pozza"></div>
+                        <img class="ms-dotted-img" src="../assets/img/maxcoach-shape-07-100x100.png" alt="">
+                    </div>
+                </div>
+                <div class="col-4 ms-5">
+                    <div class="ms-card-container">
+                        <p class="ms-thin ms-small">WHAT ARE YOU LOOKING FOR?</p>
+                        <h1>Learn on your <span class="ms-thin ms-green">Mobile</span> anytime!</h1>
+                        <p class="ms-thin py-3">Save lessons for later and revise or write notes at any timeand on multiple devices on your way. Never interfere with activities of enjoyment or other precious moments.</p>
+                        <button>Get Started For Free</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </template>
@@ -204,8 +221,14 @@
 .ms-mt{
     margin-top: 60px;
 }
+.ms-more-mt{
+    margin-top: 200px;
+}
 .ms-move{
     margin-left: 250px;
+}
+.ms-move-right{
+    margin-left: 175px;
 }
 /* STILI */
 .ms-card-container{
