@@ -58,7 +58,7 @@
                         <div class="ms-pp-container">
                             <img class="pp" src="../assets/img/testimonial-avata-02.jpg" alt="">
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nihil a exercitationem eaque inventore sit nobis ipsa accusamus hic odio reiciendis repudiandae harum optio, esse autem? Similique provident excepturi praesentium.</p>
+                        <p>I am free to learn at my own pace, follow my own schedule and choose the subject I like. Great study portal for people like me.</p>
                         <h5>MINA HOLLACE</h5>
                         <small>/ Freelancer</small>
                     </div>
@@ -66,23 +66,32 @@
                 <div class="col-3">
                     <div class="ms-testimonial-card d-flex flex-column align-items-center">
                         <div class="ms-pp-container">
-                            <img class="pp" src="../assets/img/testimonial-avata-02.jpg" alt="">
+                            <img class="pp" src="../assets/img/testimonial-avata-01.jpg" alt="">
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nihil a exercitationem eaque inventore sit nobis ipsa accusamus hic odio reiciendis repudiandae harum optio, esse autem? Similique provident excepturi praesentium.</p>
-                        <h5>MINA HOLLACE</h5>
-                        <small>/ Freelancer</small>
+                        <p>MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.</p>
+                        <h5>MADLEY PONDOR</h5>
+                        <small>/ IT Specialist</small>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="ms-testimonial-card d-flex flex-column align-items-center">
                         <div class="ms-pp-container">
-                            <img class="pp" src="../assets/img/testimonial-avata-02.jpg" alt="">
+                            <img class="pp" src="../assets/img/testimonial-avata-01.jpg" alt="">
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nihil a exercitationem eaque inventore sit nobis ipsa accusamus hic odio reiciendis repudiandae harum optio, esse autem? Similique provident excepturi praesentium.</p>
-                        <h5>MINA HOLLACE</h5>
-                        <small>/ Freelancer</small>
+                        <p>I am happy with their arrangement of lessons and subjects. They reflect a scienific innvestigation.</p>
+                        <h5>LUVIC DUBBLE</h5>
+                        <small>/ Private Tutor</small>
                     </div>
                 </div>
+            </div>
+            <!-- Quattro puntini -->
+            <div class="ms-dots d-flex justify-content-center">
+                <ul class="d-flex justify-content-center align-items-center">
+                    <li class="ms-first-dot d-flex"><i class="fa-solid fa-circle"></i></li>
+                    <li><i class="fa-solid fa-circle"></i></li>
+                    <li><i class="fa-solid fa-circle"></i></li>
+                    <li><i class="fa-solid fa-circle"></i></li>
+                </ul>
             </div>
         </div>
     </section>
@@ -161,11 +170,19 @@
     margin-top: 100px;
     .ms-testimonial-card{
          background-color: white;
+         padding: 20px 0px;
+         height: 325px;
          p{
+            text-align: center;
             padding-top: 100px;
             padding-left: 15px;
             padding-right: 15px;
             padding-bottom: 20px;
+         }
+         small{
+            font-size: 14px;
+            font-weight: 200;
+            color: $gray;
          }
     }
 
@@ -178,6 +195,22 @@
             width: 150px;
             top: -75px;
             right: -75px;
+        }
+    }
+    .ms-dots{
+        padding: 50px 0;
+        ul{
+            list-style: none;
+            li{
+                padding: 0 15px;
+                color: $gray;
+                font-size: 10px;
+                font-weight: 100;
+            }
+            .ms-first-dot{
+                font-size: 16px;
+                font-weight: 600;
+            }
         }
     }
 }
