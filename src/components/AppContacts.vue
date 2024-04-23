@@ -43,6 +43,49 @@
             </div>
         </div>
     </section>
+    <!-- Sezione testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <!-- Titoli -->
+            <div class="ms-title-wrapper text-center py-5">
+                <small class="ms-thin ms-small">PEOPLE ARE PRAISIN MAXCOACH</small>
+                <h2 class="ms-purple py-4">What make they <span class="ms-green">Love Us?</span></h2>
+            </div>
+            <!-- Cards dei testimonials -->
+            <div class="row d-flex justify-content-around mt-5 pt-3">
+                <div class="col-3">
+                    <div class="ms-testimonial-card d-flex flex-column align-items-center">
+                        <div class="ms-pp-container">
+                            <img class="pp" src="../assets/img/testimonial-avata-02.jpg" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nihil a exercitationem eaque inventore sit nobis ipsa accusamus hic odio reiciendis repudiandae harum optio, esse autem? Similique provident excepturi praesentium.</p>
+                        <h5>MINA HOLLACE</h5>
+                        <small>/ Freelancer</small>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="ms-testimonial-card d-flex flex-column align-items-center">
+                        <div class="ms-pp-container">
+                            <img class="pp" src="../assets/img/testimonial-avata-02.jpg" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nihil a exercitationem eaque inventore sit nobis ipsa accusamus hic odio reiciendis repudiandae harum optio, esse autem? Similique provident excepturi praesentium.</p>
+                        <h5>MINA HOLLACE</h5>
+                        <small>/ Freelancer</small>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="ms-testimonial-card d-flex flex-column align-items-center">
+                        <div class="ms-pp-container">
+                            <img class="pp" src="../assets/img/testimonial-avata-02.jpg" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nihil a exercitationem eaque inventore sit nobis ipsa accusamus hic odio reiciendis repudiandae harum optio, esse autem? Similique provident excepturi praesentium.</p>
+                        <h5>MINA HOLLACE</h5>
+                        <small>/ Freelancer</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </template>
 
 
@@ -109,6 +152,33 @@
     a{
         text-decoration: none;
         color: $green;
+    }
+}
+
+
+.testimonials{
+    background-color: $light-gray;
+    margin-top: 100px;
+    .ms-testimonial-card{
+         background-color: white;
+         p{
+            padding-top: 100px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 20px;
+         }
+    }
+
+    .ms-pp-container{
+        display: flex;
+        position: relative;
+        .pp{
+            border-radius: 50%;
+            position: absolute;
+            width: 150px;
+            top: -75px;
+            right: -75px;
+        }
     }
 }
 </style>
