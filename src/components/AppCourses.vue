@@ -1,0 +1,215 @@
+<script>
+    export default {
+        name: 'AppCourses'
+    }
+</script>
+
+
+<template>
+    <section class="ms-bg-lightgray pb-5">
+        <div class="container">
+            <!-- Il titolo -->
+            <div class="ms-titles-wrapper text-center">
+                <p class="ms-thin pt-5">CHOOSE WHERE YOU'D LIKE TO BEGIN</p>
+                <h2>Lastest Featured <span class="ms-green ms-thin">Courses</span></h2>
+            </div>
+            <!-- Le cards -->
+            <div class="row">
+                <div class="col-4 ms-mt">
+                    <div class="ms-card-container d-flex flex-column">
+                        <div class="ms-img-container d-flex">
+                            <img src="../assets/img/course-02-480x298.jpg" alt="">
+                            <div class="ms-sale d-flex align-items-center justify-content-center fw-semibold text-light">$40.00</div>
+                        </div>
+                        <div class="ms-name-container d-flex align-items-center ps-5 pb-3">
+                            <div class="ms-pp-container">
+                                <img class="ms-round" src="../assets/img/d0d504142acfde820eef2f11feea6253.jpeg" alt="">
+                            </div>
+                            <span class="ms-3 ms-thin ms-small">Blanche Fields</span>
+                        </div>
+                        <div class="ms-card-title ps-3">
+                            <p class="fw-bold">Learning to Write as a Professional Author</p>
+                        </div>
+                        <div class="ms-card-data-container ms-thin ms-small mt-4 px-3 pb-3">
+                            <span class="pe-5"><i class="fa-regular fa-clipboard pe-2"></i>20 Lesson</span> <span class="ps-5"><i class="fa-regular fa-user pe-2"></i>50 Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 ms-mt">
+                    <div class="ms-card-container d-flex flex-column">
+                        <div class="ms-img-container d-flex">
+                            <img src="../assets/img/stock-full-hd-03-480x298.jpg" alt="">
+                            <div class="ms-sale d-flex align-items-center justify-content-center fw-semibold text-light">FREE</div>
+                        </div>
+                        <div class="ms-name-container d-flex align-items-center ps-5 pb-3">
+                            <div class="ms-pp-container">
+                                <img class="ms-round" src="../assets/img/d0d504142acfde820eef2f11feea6253.jpeg" alt="">
+                            </div>
+                            <span class="ms-3 ms-thin ms-small">Maggie Strickland</span>
+                        </div>
+                        <div class="ms-card-title ps-3">
+                            <p class="fw-bold">Customer-centric Info-Tech Strategies</p>
+                        </div>
+                        <div class="ms-card-data-container ms-thin ms-small mt-4 px-3 pb-3">
+                            <span class="pe-5"><i class="fa-regular fa-clipboard pe-2"></i>24 Lesson</span> <span class="ps-5"><i class="fa-regular fa-user pe-2"></i>769 Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 ms-mt">
+                    <div class="ms-card-container d-flex flex-column">
+                        <div class="ms-img-container d-flex">
+                            <img src="../assets/img/stock-full-hd-04-480x298.jpg" alt="">
+                            <div class="ms-sale d-flex align-items-center justify-content-center fw-semibold text-light">$19.00</div>
+                        </div>
+                        <div class="ms-name-container d-flex align-items-center ps-5 pb-3">
+                            <div class="ms-pp-container">
+                                <img class="ms-round" src="../assets/img/d0d504142acfde820eef2f11feea6253.jpeg" alt="">
+                            </div>
+                            <span class="ms-3 ms-thin ms-small">Maggie Strickland</span>
+                        </div>
+                        <div class="ms-card-title ps-3">
+                            <p class="fw-bold">Open Programming Courses for Everyone: Python</p>
+                        </div>
+                        <div class="ms-card-data-container ms-thin ms-small mt-4 px-3 pb-3">
+                            <span class="pe-5"><i class="fa-regular fa-clipboard pe-2"></i>17 Lesson</span> <span class="ps-5"><i class="fa-regular fa-user pe-2"></i>62 Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 ms-mt">
+                    <div class="ms-card-container d-flex flex-column">
+                        <div class="ms-img-container d-flex">
+                            <img src="../assets/img/stock-full-hd-06-480x298.jpg" alt="">
+                            <div class="ms-sale d-flex align-items-center justify-content-center fw-semibold text-light">$26.00</div>
+                        </div>
+                        <div class="ms-name-container d-flex align-items-center ps-5 pb-3">
+                            <div class="ms-pp-container">
+                                <img class="ms-round" src="../assets/img/d0d504142acfde820eef2f11feea6253.jpeg" alt="">
+                            </div>
+                            <span class="ms-3 ms-thin ms-small">Blanche Fields</span>
+                        </div>
+                        <div class="ms-card-title ps-3">
+                            <p class="fw-bold">Academic Listening and Note-Taking</p>
+                        </div>
+                        <div class="ms-card-data-container ms-thin ms-small mt-4 px-3 pb-3">
+                            <span class="pe-5"><i class="fa-regular fa-clipboard pe-2"></i>14 Lesson</span> <span class="ps-5"><i class="fa-regular fa-user pe-2"></i>67 Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 ms-mt">
+                    <div class="ms-card-container d-flex flex-column">
+                        <div class="ms-img-container d-flex">
+                            <img src="../assets/img/course-featured-image-01-480x298.jpg" alt="">
+                            <div class="ms-sale d-flex align-items-center justify-content-center fw-semibold text-light">$39.00</div>
+                        </div>
+                        <div class="ms-name-container d-flex align-items-center ps-5 pb-3">
+                            <div class="ms-pp-container">
+                                <img class="ms-round" src="../assets/img/d0d504142acfde820eef2f11feea6253.jpeg" alt="">
+                            </div>
+                            <span class="ms-3 ms-thin ms-small">Maggie Strickland</span>
+                        </div>
+                        <div class="ms-card-title ps-3">
+                            <p class="fw-bold">Master JQuery in a Short Period of Time</p>
+                        </div>
+                        <div class="ms-card-data-container ms-thin ms-small mt-4 px-3 pb-3">
+                            <span class="pe-5"><i class="fa-regular fa-clipboard pe-2"></i>12 Lesson</span> <span class="ps-5"><i class="fa-regular fa-user pe-2"></i>29 Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 ms-mt">
+                    <div class="ms-card-container d-flex flex-column">
+                        <div class="ms-img-container d-flex">
+                            <img src="../assets/img/stock-full-hd-05-480x298.jpg" alt="">
+                            <div class="ms-sale d-flex align-items-center justify-content-center fw-semibold text-light">$59.00</div>
+                        </div>
+                        <div class="ms-name-container d-flex align-items-center ps-5 pb-3">
+                            <div class="ms-pp-container">
+                                <img class="ms-round" src="../assets/img/d0d504142acfde820eef2f11feea6253.jpeg" alt="">
+                            </div>
+                            <span class="ms-3 ms-thin ms-small">Maggie Strickland</span>
+                        </div>
+                        <div class="ms-card-title ps-3">
+                            <p class="fw-bold">Introduction to JavaScript for Beginners</p>
+                        </div>
+                        <div class="ms-card-data-container ms-thin ms-small mt-4 px-3 pb-3">
+                            <span class="pe-5"><i class="fa-regular fa-clipboard pe-2"></i>14 Lesson</span> <span class="ps-5"><i class="fa-regular fa-user pe-2"></i>76 Student</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Il bottone -->
+            <div class="ms-btn-container d-flex justify-content-center">
+                <button>View All Courses <i class="fa-solid fa-arrow-right ps-3"></i></button>
+            </div>
+        </div>
+    </section>
+</template>
+
+
+<style scoped lang="scss">
+@use '../style/partials/variables' as *;
+/* STILI */
+.ms-bg-lightgray{
+    background-color: $light-gray;
+}
+.ms-green{
+    color: $green;
+}
+.ms-thin{
+    font-weight: 300;
+}
+.ms-small{
+    font-size: 12px;
+}
+.ms-titles-wrapper{
+    margin-top: 100px;
+}
+.ms-round{
+    border-radius: 50%;
+}
+.ms-sale{
+    background-color: $green;
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ms-mt{
+    margin-top: 60px;
+}
+/* STILI */
+.ms-card-container{
+    &:hover{
+        background-color: white;
+        border-radius: 5px;
+    }
+    .ms-img-container{
+        max-width: 100%;
+        height: 260px;
+        margin-bottom: 20px;
+        position: relative;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .ms-card-title{
+        p{
+            width: 60%;
+        }
+    }
+}
+.ms-btn-container{
+    padding: 70px 0;
+    button{
+        padding: 12px 60px;
+        border: none;
+        background-color: $green;
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+}
+</style>
