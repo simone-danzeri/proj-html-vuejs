@@ -66,7 +66,7 @@
                 <div class="col-3">
                     <div class="ms-testimonial-card d-flex flex-column align-items-center">
                         <div class="ms-pp-container">
-                            <img class="pp" src="../assets/img/testimonial-avata-01.jpg" alt="">
+                            <img class="pp" src="../assets/img/testimonial-avata-04.jpg" alt="">
                         </div>
                         <p>MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.</p>
                         <h5>MADLEY PONDOR</h5>
