@@ -142,6 +142,33 @@
             </div>
         </div>
     </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="ms-card-container">
+                        <p class="ms-thin ms-small">WHY HESITATE TO REGISTER?</p>
+                        <h1>Learn At Your Own <span class="ms-thin ms-green">Pace</span></h1>
+                        <ul>
+                            <li><i class="fa-solid fa-check pe-2"></i>Select and customize courses at your preference</li>
+                            <li><i class="fa-solid fa-check pe-2"></i>Change the tutor and make arrangements</li>
+                            <li><i class="fa-solid fa-check pe-2"></i>Partecipate in events to join others</li>
+                            <li><i class="fa-solid fa-check pe-2"></i>Get the desired certificate delivered at home</li>
+                        </ul>
+                        <button>Get Started For Free</button>
+                    </div>
+                </div>
+                <div class="col-5 ms-move">
+                    <div class="ms-images-container d-flex">
+                        <img class="ms-img" src="../assets/img/home-5-image-01.png" alt="">
+                        <div class="ms-pozza"></div>
+                        <img class="ms-dotted-img" src="../assets/img/maxcoach-shape-05-100x100.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </template>
 
 
@@ -177,6 +204,9 @@
 .ms-mt{
     margin-top: 60px;
 }
+.ms-move{
+    margin-left: 250px;
+}
 /* STILI */
 .ms-card-container{
     &:hover{
@@ -210,6 +240,59 @@
         font-weight: 700;
         font-size: 14px;
         border-radius: 5px;
+    }
+}
+
+.ms-card-container{
+    h1{
+        color: $purple;
+    }
+    ul{
+        list-style: none;
+        padding: 20px 0;
+        li{
+            padding: 6px 0;
+            i{
+                color: $green;
+            }
+        }
+    }
+    button{
+        border: none;
+        background-color: $green;
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        border-radius: 5px;
+        padding: 12px 14px;
+    }
+}
+
+.ms-images-container{
+    position: relative;
+    height: 400px;
+    .ms-pozza{
+        position: absolute;
+        background-image: url(../assets/img/underlay-shape-grey.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        bottom: -40px;
+        left: -80px;
+        width: 350px;
+        height: 400px;
+    }
+    .ms-img{
+        position: absolute;
+        z-index: 100;
+        height: 400px;
+    }
+    .ms-dotted-img{
+        width: 125px;
+        height: 125px;
+        position: absolute;
+        top: 52%;
+        right: 25%;
     }
 }
 </style>
