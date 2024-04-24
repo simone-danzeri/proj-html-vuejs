@@ -29,6 +29,9 @@
                 </div>
             </div>
         </div>
+        <div class="sfondo">
+            <img src="../assets/img/jumbo-overlay.svg" alt="">
+        </div>
     </div>
 </template>
 
@@ -36,14 +39,8 @@
 <style scoped lang="scss">
 @use '../style/partials/variables' as *;
 .ms-bg{
-    background-image: url('../assets/img/jumbo-overlay.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
     position: relative;
     
-
     .ms-side{
         position: absolute;
         top: 20%;
@@ -51,6 +48,9 @@
         background-color: white;
         padding: 9px 8px;
         border-radius: 5px;
+        box-shadow: 0px 14px 35px 33px rgba(0,0,0,0.05);
+        -webkit-box-shadow: 0px 14px 35px 33px rgba(0,0,0,0.05);
+        -moz-box-shadow: 0px 14px 35px 33px rgba(0,0,0,0.05);
 
     }
 
@@ -86,8 +86,24 @@
         width: 80%;
 
         img{
+            position: relative;
             max-width: 100%;
+            z-index: 100;
         }
+    }
+}
+.sfondo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(180deg);
+    width: 100%;
+    height: 50%;
+    img{
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
     }
 }
 </style>
