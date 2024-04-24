@@ -93,10 +93,10 @@
                 </div>
             </div>
         </div>
-
-        <!-- Sezione colorata con numeri -->
-        <div class="row justify-content-around ms-bg-lightgray my-5 py-2">
-            <div class="col-2">
+    </div>
+            <!-- Sezione colorata con numeri -->
+            <div class="row justify-content-around ms-bg-lightgray my-5 py-4">
+            <div class="col-2 ps-5">
                 <h3 class="ms-color-green">1.926</h3>
                 <small>FINISHED SESSION</small>
             </div>
@@ -108,12 +108,11 @@
                 <h3 class="ms-color-green">200</h3>
                 <small>ONLINE INSTRUCTORS</small>
             </div>
-            <div class="col-2">
+            <div class="col-2 pe-5">
                 <h3 class="ms-color-green">100%</h3>
                 <small>SATISFACTION RATE</small>
             </div>
         </div>
-    </div>
 </template>
 
 

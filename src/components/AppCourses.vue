@@ -193,7 +193,8 @@
 @use '../style/partials/variables' as *;
 /* STILI */
 .ms-bg-lightgray{
-    background-color: $light-gray;
+    background: rgb(245,241,237);
+    background: linear-gradient(0deg, rgba(245,241,237,1) 9%, rgba(255,255,255,1) 100%); 
 }
 .ms-green{
     color: $green;
